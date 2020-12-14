@@ -2,8 +2,9 @@
 title: "About"
 description: ""
 featured_image: '/images/start.jpg'
-toc: true
 ---
+
+{{< figure src="/images/Business_Card-Front.jpg">}}
 
 This site is intended to catalog the collection of a particular household that has the largest collection of Micropolis modules that we are currently aware of. While hopefully a site that is useful to any visitor to one of our displays we also hope that it is a useful resource for other Micropolis builders.
 
