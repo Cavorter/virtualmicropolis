@@ -1,4 +1,4 @@
-baseURL = "https://test.virtualmicropolis.com"
+baseURL = "https://www.virtualmicropolis.com"
 languageCode = "en-us"
 theme = "gohugo-theme-ananke"
 title = "Virtual Micropolis"
