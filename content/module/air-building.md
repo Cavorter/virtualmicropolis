@@ -12,11 +12,11 @@ tags:
 - Tower
 - Elemental
 
-featured_image: 'https://live.staticflickr.com/7295/9340306446_f569a122af_b.jpg'
-album: '72157634742476336'
+flickralbum: '72157634742476336'
+image_count: 4
 ---
 
-{{< flickrgallery >}}
+{{< galleria >}}
 
 The was the fourth elemental building. Whenever Nathan looks at it he says "Where are the doors?" At first I argued that they're almost invisibly set into the outer glass of the building. When that didn't work I finally gave up and told him there's a force field around the building that lets people through if they have the key.
 
