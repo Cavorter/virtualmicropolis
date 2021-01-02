@@ -1,0 +1,21 @@
+<div class="galleria">
+    {{ range ( seq $.Page.Params.image_count ) }}
+        {{ $suffix := delimit ( slice . "jpg" ) "." }}
+        {{ $fileName := delimit ( slice "micropolis" ( urlize $.Page.Params.Title | lower ) $suffix ) "-" }}
+        {{ $uriRoot := delimit ( slice $.Site.Params.image_root $.Page.Type ( urlize $.Page.Params.Title ) ) "/" }}
+        {{ $imageUri := delimit ( slice $uriRoot $fileName ) "/" }}
+        {{ $thumbUri := delimit ( slice $uriRoot "thumbs" $fileName ) "/" }}
+        <a href="{{ $imageUri }}"><img src="{{ $thumbUri }}"></a>
+    {{ end }}
+</div>
+<script>
+    (function () {
+        Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/folio/galleria.folio.min.js');
+        Galleria.configure({
+            imageCrop: false,
+            transition: 'fade',
+            _center: true
+        });
+        Galleria.run('.galleria');
+    }());
+</script>

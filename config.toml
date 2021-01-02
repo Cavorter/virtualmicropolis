@@ -34,3 +34,5 @@ rss = ""
 background_color_class = "bg-green"
 featured_image = "/images/start.jpg"
 recent_posts_number = 10
+
+image_root = "https://vmicroimages.blob.core.windows.net/content"
